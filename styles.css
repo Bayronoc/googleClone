@@ -1,0 +1,11 @@
+/* Evita errores de margenes y corrige el margen y padding de la página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tamaño de letra para toda la página ajustada para valores relativos */
+html {
+    font-size: 62.5%; /* 1rem = 10px para escalabilidad */
+}
