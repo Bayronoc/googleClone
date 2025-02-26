@@ -1,3 +1,10 @@
+/* Variables */ 
+:root {
+    --colorPrimary: #202124;
+    --colorFooter: #313335;
+    --textColor: #FFFFFF;
+}
+
 /* Evita errores de margenes y corrige el margen y padding de la página */
 * {
     box-sizing: border-box;
@@ -8,4 +15,60 @@
 /* Tamaño de letra para toda la página ajustada para valores relativos */
 html {
     font-size: 62.5%; /* 1rem = 10px para escalabilidad */
+}
+
+body {
+    background-color: var(--colorPrimary);
+}
+
+.icons {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.icon-perfil {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 18rem;
+    width: auto;
+}
+
+/* Estilos del menu */
+
+.menu {
+    color: var(--textColor);
+}
+
+.menu-container {
+    font-size: 1.4rem;
+    font: 1.3rem Roboto, Arial, sans-serif;
+}
+
+.menu-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 1.5rem;
+    gap: 1.8rem;
+}
+
+/* Quita la decoración y color por default de la etiqueta a */
+.menu-container ul > li > a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+.menu-container ul > li > a:hover{
+    text-decoration: underline; /* Cuando pasa por encima, lo subraya */
+}
+
+.menu-container ul > li:nth-child(2) {
+    margin-right: 0.6rem;
+
 }
