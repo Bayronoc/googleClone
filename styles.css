@@ -2,6 +2,9 @@
 :root {
     --colorPrimary: #202124;
     --colorFooter: #313335;
+    --colorInput: #4d5156;
+    --colorInputHover: #56595d;
+    --colorInputWrite: #303134;
     --textColor: #FFFFFF;
 }
 
@@ -30,11 +33,6 @@ body {
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 50%;
-}
-
-.logo {
-    height: 18rem;
-    width: auto;
 }
 
 /* Estilos del menu */
@@ -72,3 +70,100 @@ body {
     margin-right: 0.6rem;
 
 }
+
+/* Buscador de Google */
+
+.logo {
+    height: 16rem;
+    width: auto;
+    filter: grayscale(100%) brightness(1000%);  
+}
+
+.input-search img:nth-child(1) {
+    height: 2rem;
+    width: 2rem;
+    opacity: 0.5;
+}
+
+.main-container {
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-search {
+    /* display: inline-block; */
+    position: relative;
+    z-index: 1;
+}
+
+.input-search input {
+    background-color: var(--colorInput);
+    width: 60rem;
+    height: 4.8rem;
+    padding: 1rem 5rem;
+    border-radius: 2.4rem;
+    border: none;
+    font-size: 1.6rem;
+    color: var(--textColor);
+}
+
+.input-search input:hover {
+    background-color: var(--colorInputHover);
+}
+
+.input-search input:focus {
+    background-color: var(--colorInputWrite);
+    border: none;
+    outline: none;
+    color: var(--textColor);
+}
+
+.input-search img:nth-of-type(1) {
+    position: absolute;
+    z-index: 2;
+    bottom: 1.3rem;
+    left: 1.2rem;
+}
+
+.input-search img:nth-of-type(2) {
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 52rem;
+}
+
+.input-search img:nth-of-type(3) {
+    position: absolute;
+    z-index: 2;
+    bottom: 1.2rem;
+    left: 56rem;
+}
+
+.container-btn {
+    padding: 2.1rem;
+}
+
+.container-btn button {
+    display: inline;
+    background-color: var(--colorInputWrite);
+    color: var(--textColor);
+    font-size: 1.4rem;
+    padding: 0.8rem 2rem;
+    margin: 1.1rem 0.4rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.container-btn button:hover {
+    box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.3); /* Efecto de borde pero hacia dentro y no se mueve nada */
+}
+
+/* Estilos del footer */
+
