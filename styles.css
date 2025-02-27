@@ -178,6 +178,29 @@ footer {
     font-size: 1.4rem;
 }
 
+footer > p {
+    padding: 1.5rem 2rem;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer div > p {
+    display: inline-block;
+    padding: 1.5rem 2.2rem;
+}
+
+.container-footer div > p > a {
+    color: var(--textColorFooter);
+    text-decoration: none;
+}
+
+.container-footer div > p:hover {
+    text-decoration: underline;
+}
+
 hr {
     opacity: 0.1;
 }
