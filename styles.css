@@ -179,17 +179,19 @@ footer {
 }
 
 footer > p {
+    font-size: 1.6rem;
     padding: 1.5rem 2rem;
 }
 
 .container-footer {
     display: flex;
     justify-content: space-between;
+    padding: 0 1rem;
 }
 
 .container-footer div > p {
     display: inline-block;
-    padding: 1.5rem 2.2rem;
+    padding: 1.5rem;
 }
 
 .container-footer div > p > a {
