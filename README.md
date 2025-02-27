@@ -1,19 +1,24 @@
-# Google Clone
+# ⭐👥 Google Clone
 
-Este es un clon de la página de inicio de Google, construido utilizando únicamente **HTML y CSS**.
+Este es un clon de la página de inicio de Google en modo oscuro y en ingles.
 
 ## 📸 Captura de Pantalla
+**Original:**
 
-![Google Clone](./image.png)
+![image](https://github.com/user-attachments/assets/8415fb56-e1d1-4e30-9fcf-99d8e70a0753)
+
+**Clon:**
+
+![image](https://github.com/user-attachments/assets/d3b7cdb8-834e-4eb9-b265-d656b8935d28)
 
 ## 🛠️ Tecnologías Utilizadas
 - **HTML5**
 - **CSS3**
 
 ## 📌 Características
-- Diseño similar a la página original de Google.
-- Responsive para adaptarse a diferentes tamaños de pantalla.
-- Efectos de interacción con CSS.
+- Diseño similar a la página original de Google, aunque sus tamaños no sean iguales.
+- Efectos de interacción con CSS, la mayoria del original pero no todos.
+- Uso de position para hacer el buscador con los iconos.
 
 ## 🚀 Cómo Ejecutar el Proyecto
 1. **Clona el repositorio:**
@@ -26,18 +31,10 @@ Este es un clon de la página de inicio de Google, construido utilizando únicam
    ```
 3. **Abre el archivo `index.html` en tu navegador favorito.**
 
-## 📂 Estructura del Proyecto
-```
-📁 googleClone/
-│── 📄 index.html      # Página principal
-│── 📄 styles.css      # Estilos del proyecto
-│── 📂 assets/         # Recursos como imágenes o íconos
-```
-
 ## 📜 Licencia
 Este proyecto es de código abierto y puedes usarlo libremente para fines educativos.
 
 ## 📌 Autor
-- **Bayron Oc** - [GitHub](https://github.com/Bayronoc)
+- **Bayronoc** - [GitHub](https://github.com/Bayronoc)
 
-Si te gustó este proyecto, ¡no olvides dejar una ⭐ en el repositorio! 🚀
+¡Si te gustó este proyecto, ¡no olvides dejar una ⭐ en el repositorio! 🚀!
