@@ -1,11 +1,12 @@
 /* Variables */ 
 :root {
     --colorPrimary: #202124;
-    --colorFooter: #313335;
+    --colorFooter: #171717;
     --colorInput: #4d5156;
     --colorInputHover: #56595d;
     --colorInputWrite: #303134;
     --textColor: #FFFFFF;
+    --textColorFooter: #E8E8E8;
 }
 
 /* Evita errores de margenes y corrige el margen y padding de la página */
@@ -22,6 +23,7 @@ html {
 
 body {
     background-color: var(--colorPrimary);
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .icons {
@@ -167,3 +169,15 @@ body {
 
 /* Estilos del footer */
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--colorFooter);
+    color: var(--textColorFooter);
+    font-size: 1.4rem;
+}
+
+hr {
+    opacity: 0.1;
+}
